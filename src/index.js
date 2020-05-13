@@ -2,4 +2,4 @@
 import App from './components/App.js';
 //import myDefault from '/modules/my-module.js';
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById('app'));
