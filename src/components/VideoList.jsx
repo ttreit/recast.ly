@@ -1,3 +1,5 @@
+import VideoListEntry from './VideoListEntry.js';
+
 var VideoList = (props) => (
   <div className="video-list">
     <div>{props.videoListEntry[0]}</div>

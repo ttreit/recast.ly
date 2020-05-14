@@ -1,4 +1,6 @@
 import VideoList from './VideoList.js';
+import exampleVideoData from '../data/exampleVideo.js';
+console.log(exampleVideoData);
 
 var App = () => (
   <div>
