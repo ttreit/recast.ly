@@ -1,6 +1,6 @@
 import VideoList from './VideoList.js';
-import exampleVideoData from '../data/exampleVideo.js';
-console.log(exampleVideoData);
+import exampleVideoData from '../data/exampleVideoData.js';
+
 
 var App = () => (
   <div>
@@ -15,7 +15,7 @@ var App = () => (
       </div>
       <div className="col-md-5">
         {/* <div><h5><em>videoList</em> view goes here</h5></div> */}
-        <div><VideoList videoListEntry={['test']} /></div>
+        <div><VideoList videos={exampleVideoData} /></div>
       </div>
     </div>
   </div>
