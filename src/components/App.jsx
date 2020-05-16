@@ -6,11 +6,10 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      // TODO - Add states.
+      activeVideo: false
     }
   }
 
-  // TBD
   render() {
     return (
     <div>

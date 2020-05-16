@@ -5,14 +5,6 @@ var VideoList = (props) => (
     {props.videos.map(video =>
       <VideoListEntry video={video} />
     )};
-    {/*
-    <div><VideoListEntry video={props.videos[0]} /></div>
-    <div><VideoListEntry video={props.videos[1]} /></div>
-    <div><VideoListEntry video={props.videos[2]} /></div>
-    <div><VideoListEntry video={props.videos[3]} /></div>
-    <div><VideoListEntry video={props.videos[4]} /></div>
-    */}
-
   </div>
 );
 
